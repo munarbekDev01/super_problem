@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .body{
+    font-family: "sans-serif";
+    text-decoration: none;
+  }
+  body {
+    background: rgb(203, 37, 37);
+    background: linear-gradient(
+      90deg,
+      rgba(203, 37, 37, 1) 14%,
+      rgba(9, 19, 121, 1) 48%,
+      rgba(255, 0, 215, 1) 73%,
+      rgba(255, 0, 215, 1) 74%,
+      rgba(255, 0, 9, 1) 96%
+    );
+  }
+  #hero {
+      padding: 125px 0;
+      display: flex;
+  }
+  .ukhero{
+    display: flex;
+    align-items: center;
+  }
+  .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      flex-direction: column;
+      width: 500px;
+      height: 400px;
+      border-radius: 59px;
+      background: rgb(203, 37, 37);
+    background: linear-gradient(
+      90deg,
+      rgba(203, 37, 37, 1) 14%,
+      rgba(9, 19, 121, 1) 48%,
+      rgba(255, 0, 215, 1) 73%,
+      rgba(255, 0, 215, 1) 74%,
+      rgba(255, 0, 9, 1) 96%
+    );
+  }
+  .inputs input {
+      margin: 5px 0;
+      padding: 10px 60px;
+  
+  
+  }
+  .inputs input::placeholder {
+     padding: 0 50px;
+  }
+  .btns button {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(160, 105, 212);
+  color: white;
+  }
+  .btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .text {
+      display: flex;
+      text-align: center;
+  }
+  .list-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    
+  }
+  .trList {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 0px 10px;
+  }
+  .textList {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+  }
+  .del-btn {
+    width: 70px;
+  
+  }
+  .hero-list {
+    width: 500px;
+    height: 400px;
+    background: rgb(203, 37, 37);
+    background: linear-gradient(
+      90deg,
+      rgba(203, 37, 37, 1) 14%,
+      rgba(9, 19, 121, 1) 48%,
+      rgba(255, 0, 215, 1) 73%,
+      rgba(255, 0, 215, 1) 74%,
+      rgba(255, 0, 9, 1) 96%
+    );
+  }
+  .imgdiv img {
+    width: 40px;
+    
+  }
+  .htt  {
+    display: flex;
+    text-align: center;
+    
+  }
+  .hero-list-one {
+    position: relative;
+    margin-left: 50px;
+    background: rgb(203, 37, 37);
+    background: linear-gradient(
+      90deg,
+      rgba(203, 37, 37, 1) 14%,
+      rgba(9, 19, 121, 1) 48%,
+      rgba(255, 0, 215, 1) 73%,
+      rgba(255, 0, 215, 1) 74%,
+      rgba(255, 0, 9, 1) 96%
+    );
+    border-radius: 30px  ;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    /* margin-right: 60px; */
+  
+  }
+  .hero-list-one::-webkit-scrollbar {
+    overflow: hidden;
+  }
+  .hero-list-one h1 {
+    text-align: center;
+  }
+  .iks h1 {
+    position: absolute;
+    cursor: pointer;
+   right: 0;
+    z-index: 2;
+    color: white;
+  
+  }
